@@ -3,19 +3,19 @@ import useWebAnimations, { bounce,backInDown } from "@wellyshen/use-web-animatio
 
 
 function App() {
-  const { ref, playState, getAnimation } = useWebAnimations({ ...bounce,...backInDown });
+  const { ref,playState } = useWebAnimations({ ...bounce,...backInDown });
   const { ref1 } = useWebAnimations({ ...backInDown });
   
-  const play=()=>{
-    getAnimation.play();
-  }
-  const pause=()=>{
-    getAnimation.play();
-  }
-  const finish=()=>{
-    getAnimation.play();
-  }
-  return (
+  // const play=()=>{
+  //   getAnimation.play();
+  // }
+  // const pause=()=>{
+  //   getAnimation.play();
+  // }
+  // const finish=()=>{
+  //   getAnimation.play();
+  // }
+   return (
     <div>
 
       <div className="App" ref={ref}>

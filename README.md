@@ -1,3 +1,9 @@
+## Check Animations Here
+
+[Box Animation](https://chrehman.github.io/WebanimationApi/)
+[Jungle Animation](https://chrehman.github.io/WebanimationApi/jungle.html)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
